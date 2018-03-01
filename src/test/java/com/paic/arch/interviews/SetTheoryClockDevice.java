@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class SetTheoryClockDevice {
 
-    private TimeConverter setTheoryClock;
+    private TimeConverter setTheoryClock = new TimeConverterImpl();
     private String theTime;
 
     @Test
